@@ -1,5 +1,9 @@
 body {
-  background-color: #282a36;
+  /* imagem adquirida no site unplash.com */
+  background-image: url("code.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   font-size: 16px;
   line-height: 1.4em;
@@ -40,8 +44,9 @@ p {
 .links {
   text-align: center;
 }
-.links a{
+.links a, span{
   color: white;
+  text-decoration: none;
 }
 
 .redes-sociais {
@@ -50,15 +55,7 @@ p {
 
 .redes-sociais a {
   color: white;
-}
-
-.container-habilidades ul {
-  width: 230px;
-  height: 140px;
-  margin: 0;
-  border: 1px solid red;
-  float: left;
-  overflow: hidden;
+  text-decoration: none;
 }
 
 
