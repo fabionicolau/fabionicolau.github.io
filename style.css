@@ -19,7 +19,6 @@ body {
 }
 
 img {
-  /* border: 0.1px solid #8ae234; */
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -27,13 +26,11 @@ img {
 }
 
 h1 {
-  background-color: #343746;
   color: #8ae234;
   text-align: center;
 }
 
 h2 {
-  background-color: #343746;
   color: #8ae234;
 }
 
