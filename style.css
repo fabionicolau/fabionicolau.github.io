@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-  border: 2px solid green;
+  
   height: 950px;
   width: 550px;
   background-color: #343746;
@@ -19,7 +19,7 @@ body {
   border-radius: 5%;
 }
 
-img {
+#minha-foto {
   border-radius: 50%;
   display: block;
   margin: 0 auto;
@@ -31,6 +31,8 @@ h1 {
 }
 
 h2 {
+  margin-top: 30px;
+  text-align: center;
   color: #8ae234;
 }
 
@@ -52,7 +54,7 @@ span {
 }
 
 #container-habilidades {
-  border: 2px solid red;
+  padding-top: 2px;
   width: 100%;
   height: 20%;
   display: flex;
@@ -61,13 +63,13 @@ span {
 }
 
 #box-principais-habilidades {
-  border: 2px solid white;
+  
   height: 100%;
   width: 50%;
 }
 
 #box-outras-habilidades {
-  border: 2px solid plum;
+ 
   width: 50%;
   height: 100%; 
 }
@@ -75,13 +77,20 @@ span {
 ul li {
   text-align: justify;
 }
-.redes-sociais {
-  border: 2px solid red;
-  text-align: center;
-  margin: 25px;
-}
 
 .redes-sociais a {
   color: white;
   text-decoration: none;
+}
+
+.redes-sociais {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo {
+  width: 50px;
+  padding: 20px;
 }
