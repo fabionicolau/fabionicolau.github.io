@@ -56,7 +56,7 @@ body {
 #principais-habilidades {
   margin-bottom: 25px;
   text-align: center;
-  color: #00B1EF;
+  color: #00b1ef;
 }
 
 p {
@@ -71,7 +71,7 @@ span {
 }
 
 #trybe {
-  color: #00C28F;
+  color: #00c28f;
   font-weight: bold;
   text-decoration: none;
 }
@@ -97,12 +97,10 @@ span {
   height: 100%;
   position: absolute;
   left: 50%;
-  ;
 }
 
-
 .titulo-hard-soft {
-  color: #00B1EF;
+  color: #00b1ef;
 }
 
 ul li {
