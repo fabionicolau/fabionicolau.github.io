@@ -10,9 +10,17 @@ body {
   line-height: 1.4em;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #box-principal {
   height: 850px;
   width: 600px;
+  min-height: 850px;
+  min-width: 600px;
   background-color: #343746;
   padding: 1em 3em;
   margin: auto;
